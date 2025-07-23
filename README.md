@@ -25,8 +25,3 @@ A few noisy variants of each letter were added to simulate real-world imperfecti
 - **Input layer:** 30 neurons (each pixel)
 - **Hidden layer:** 16 neurons, sigmoid activation
 - **Output layer:** 3 neurons (one-hot encoding for A, B, C), sigmoid activation
-
-### 2. Activation Function
-```python
-def sigmoid(x):
-    return 1 / (1 + np.exp(-x))
